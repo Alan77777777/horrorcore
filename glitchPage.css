@@ -1,0 +1,206 @@
+/* GLOBALS */
+
+* {
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: black;
+    background-image: url(./GIFS/0.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.content {
+    margin: 0px auto;
+}
+
+
+/* GRID */
+
+.grid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square {
+    width: 6vh;
+    height: 6vh;
+    background-image: url(./c43712af49b76ffbf268dd254800624d.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* IMAGES */
+
+.gifi0 {
+    background-image: url(./GIFS/0.gif);
+}
+
+.gifi1 {
+    background-image: url(./GIFS/1.gif);
+}
+
+.gifi2 {
+    background-image: url(./GIFS/2.gif);
+}
+
+.gifi3 {
+    background-image: url(./GIFS/3.gif);
+}
+
+.gifi4 {
+    background-image: url(./GIFS/4.gif);
+}
+
+.gifi5 {
+    background-image: url(./GIFS/5.gif);
+}
+
+.gifi6 {
+    background-image: url(./GIFS/6.gif);
+}
+
+.gifi7 {
+    background-image: url(./GIFS/7.gif);
+}
+
+.gifi8 {
+    background-image: url(./GIFS/8.gif);
+}
+
+.gifi9 {
+    background-image: url(./GIFS/9.gif);
+}
+
+.gifi10 {
+    background-image: url(./GIFS/10.gif);
+}
+
+.gifi11 {
+    background-image: url(./GIFS/11.gif);
+}
+
+.gifi12 {
+    background-image: url(./GIFS/12.gif);
+}
+
+.gifi13 {
+    background-image: url(./GIFS/13.gif);
+}
+
+.gifi14 {
+    background-image: url(./GIFS/14.gif);
+}
+
+.gifi15 {
+    background-image: url(./GIFS/15.gif);
+}
+
+.gifi16 {
+    background-image: url(./GIFS/16.gif);
+}
+
+.gifi17 {
+    background-image: url(./GIFS/17.gif);
+}
+
+.gifi18 {
+    background-image: url(./GIFS/18.gif);
+}
+
+.gifi19 {
+    background-image: url(./GIFS/19.gif);
+}
+
+.gifi20 {
+    background-image: url(./GIFS/20.gif);
+}
+
+.gifi21 {
+    background-image: url(./GIFS/21.gif);
+}
+
+.gifi22 {
+    background-image: url(./GIFS/22.gif);
+}
+
+.gifi23 {
+    background-image: url(./GIFS/23.gif);
+}
+
+.gifi24 {
+    background-image: url(./GIFS/24.gif);
+}
+
+.gifi25 {
+    background-image: url(./GIFS/25.gif);
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 270px) {
+    .square {
+        width: 8vh;
+        height: 8vh;
+    }
+}
+
+@media (min-width: 270px) {
+    .square {
+        width: 9vh;
+        height: 9vh;
+    }
+}
+
+@media (min-width: 450px) {
+    .square {
+        width: 10vh;
+        height: 10vh;
+    }
+}
+
+@media (min-width: 700px) {
+    .square {
+        width: 12vh;
+        height: 12vh;
+    }
+}
+
+@media (min-width: 840px) {
+    .square {
+        width: 15vh;
+        height: 15vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .square {
+        width: 18vh;
+        height: 18vh;
+    }
+}
+
+@media (min-width: 1300px) {
+    .square {
+        width: 25vh;
+        height: 25vh;
+    }
+}
+
+@media (min-width: 1300px) {
+    .square {
+        width: 30vh;
+        height: 30vh;
+    }
+}

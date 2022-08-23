@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac-a-mole</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- OWN STYLE -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="content">
+        <div id="sonido"></div>
+        <div class="inputs">
+            <h1>HORROR CORE</h1>
+            <form action="#" method="post" id="formulario" onsubmit="return false">
+
+                <div class="inputs">
+                    <div class="time">
+                        <label for="time" class="time-label"><p>Set <span>time</span> in <span>seconds </span></p></label>
+                        <input type="number" name="time" id="time" value="30" min="5">
+                    </div>
+                    <div class="velocity">
+                        <label for="dificulty" class="dificulty-label"><p>Set <span> Dificulty</span></p></label>
+                        <input type="range" name="dificulty" id="dificulty" min="0.2" max="20">
+                    </div>
+                </div>
+
+                <input class="btn btn-success start" type="submit" id="enviar" value="Start Game">
+            </form>
+            <form action="#" method="post" id="reset" onsubmit="return false">
+                <input class="btn btn-danger reset" type="submit" value="Reset Game">
+            </form>
+        </div>
+
+        <div class="displays">
+            <p> <span> Game </span>Score: <span id="score"></span> </p>
+            <p> <span> Time</span>--left: <span id="time-left"></span> </p>
+        </div>
+
+        <div class="grid">
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+
+        <br>
+        <p class="info">
+            Click <span><a href="./glitchPage.html">on</a></span> the <span>square$</span>
+        </p>
+    </div>
+
+
+    <footer class="foot">
+        <p class="attribution">
+            Coded by <a href="https://github.com/Alan77777777" target="_blank">Alan</a>
+        </p>
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
